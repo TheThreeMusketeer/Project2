@@ -507,3 +507,31 @@ button {
   width: 50%;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+@media screen and (max-width: 900px) {
+	.block_one p{
+		color: black;
+		text-align: center;
+		font-size: 3vw;
+	  font-family: 'PT Sans Narrow', sans-serif;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.block_one p{
+		color: black;
+		text-align: center;
+		font-size: 18px;
+		padding: 5px 50px 5px 50px;
+	  font-family: 'PT Sans Narrow', sans-serif;
+	}
+
+	.block_three p{
+		color: black;
+		text-align: center;
+		padding: 100px 50px 5px 50px;
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+}
